@@ -1,84 +1,8 @@
-Hello World
+<h1>KUB Datalab</h1>
 
-Helt elementær git/github. Det absolut mest basale og banale.
-
-Git er et versionskontrolsystem. Github er en side hvor vi kan dele 
-vores "repositories". 
-
-Gå til github.com, opret dig som bruger hvis du ikke allerede er. Og 
-skriv til cbk@kb.dk, for at få passende rettigheder i vores fælles 
-"organisation" på github.
-
-På github kan vi oprette repositorier, hvor vi kan dele vores kode og 
-andet godt. 
-
-Konceptet er at vi laver en lokal kopi af et repositorie på vores 
-computer.
-
-Så laver vi de rettelser vi har lyst til. Så tjekker vi vores ændringer 
-ind i vores lokale kopi. Den gamle udgave af filerne gemmes, rettelserne 
-tilføjes.
-Når vi har lavet et passende antal rettelser, som vi har tjekket ind i 
-vores lokale repo.
-Og så beder vi github siden om at trække de rettelser og tilføjelser ind 
-i det centrale github repositorie og tilføje dem.
-
-Vi starter med at "klone" et repositorium til vores egen computer.
-
-Start gitbash.
-Find ud af hvad url'en er til det repositorium på github du godt vil 
-lave en kopi af. Her bruger vi 
-https://github.com/KUBDatalab/KUBDatalab.github.io
-
-Skriv, i gitbash:
-git clone https://github.com/KUBDatalab/KUBDatalab.github.io
-Tryk enter, og væbn dig med tålmodighed.
-
-Nu har du en lokal kopi af det repo på vores fælles github side, der 
-styrer vores meget primitive hjemmeside: kubdatalab.github.io
-
-Der er i skrivende stund ikke mange sider. Vi kigger på index.html - det 
-er den side du kigger på lige nu.
-
-Men start med i gitbash, at gå ind i det katalog, hvor din lokale kopi 
-ligger:
-
-cd KUBDatalab.github.io
-
-og skriv derefter:
-ls
-
-Der giver en fin farvekodet liste over filerne i repoet.
-
-Nu skal vi redigere en fil. Skriv:
-
-nano index.html
-
-Og skriv rettelser ind i det.
-
-Når du er færdig med at skrive, tast ctrl-x, og svar ja til de spørgsmål 
-nano giver dig.
+Please visit our <a href= "https://kub.kb.dk/datalab">main website</a>
 
 
-Nu tilføjer vi filen til vores "staging area". det er der vi har de 
-filer vi har arbejdet med, men som vi ikke er færdige med. det er vores 
-kladde-samling.
-
-Når vi har en passende samling kladder, forpligter vi os på filerne. Vi 
-committer dem til vores lokale kopi af repositoriet.
-
-Det gør vi ved at skrive:
-git commit -m "en tekst"
-
-Skriv gerne noget andet end "en tekst". En kort beskrivelse af hvad det 
-er du har gjort. At du har tilføjet en fil, rettet en fejl i noget 
-tekst, eller hvad det nu er. Kort, præcist, og beskrivende i forhold til 
-hvad du har lavet.
 
 
-Nu er det så tid at sende vores rettelser, tilføjelser og andet godt til 
-github. Skriv i gitbash:
-git push
 
-Vupti. Det var det absolut mest elementære. Der er uanede dybder, og vi 
-skal også kigge på branches. Men nu er vi igang!
